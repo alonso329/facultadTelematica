@@ -1,0 +1,68 @@
+z.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+#p1{
+    color: white;
+}
+  
+#h{
+    color: white;
+}
+
+#iconCorreo{
+  color: white;
+}
+
+#mision{
+  background-color: rgb(163, 155, 155);
+}
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 520px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+  }
+  
+  footer#infrafooter {
+    background-color: #555;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+  
+.thead-dark{
+  color: #fff;
+  background-color: #373a3c;
+}
+
+  .texto-b{
+    text-align: justify; 
+  }
+
+  .texto-historia{
+    text-align: justify;
+  }
